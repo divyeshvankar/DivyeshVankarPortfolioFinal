@@ -193,10 +193,10 @@ const educationInfo = {
       duration: "December 2021 - April 2025",
       desc: "Computer Science enthusiast with a passion for learning and building innovative solutions.",
       descBullets: [
-          "Studied various core subjects including Data Structures, Algorithms, Database Management Systems, and Software Engineering.",
-          "Engaged in hands-on projects and collaborated with peers to solve real-world problems.",
-          "Participated in coding competitions and hackathons, honing problem-solving skills and fostering creativity.",
-          "Actively involved in extracurricular activities, contributing to the vibrant campus community."
+        "Studied various core subjects including Data Structures, Algorithms, Database Management Systems, and Software Engineering.",
+        "Engaged in hands-on projects and collaborated with peers to solve real-world problems.",
+        "Participated in coding competitions and hackathons, honing problem-solving skills and fostering creativity.",
+        "Actively involved in extracurricular activities, contributing to the vibrant campus community."
       ]
 
     },
@@ -238,29 +238,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer Engineer",
+      role: "Software Developer Engineer Intern",
       company: "Barclays",
       companylogo: require("./assets/images/barclaysLogo.png"),
       date: "May 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Excited to join the Global Security team, where I'll be contributing my skills and expertise to ensure the safety and integrity of our systems and data.",
     },
     {
-      role: "Front-End Developer",
+      role: "Software Developer Intern",
       company: "MedSolu",
       companylogo: require("./assets/images/medsoluLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2023 – March 2024",
+      desc: "During my tenure at MedSolu, I actively contributed as a web developer utilizing Django and also honed my skills as a Flutter developer. Additionally, I showcased my creativity by designing intuitive user interfaces using Figma, ensuring a seamless user experience across platforms."
     },
     {
-      role: "Kakr Labs",
-      company: "Airbnb",
+      role: "Fullstack Blockchain Developer Intern",
+      company: "Kakr Labs",
       companylogo: require("./assets/images/kakrLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Nov 2022 – Jan 2023",
+      desc: "As an intern at Kakr Labs, I spearheaded the development of a crowdfunding platform. Leveraging my expertise in C# .NET for the backend, along with Vue.js and Nuxt.js for the frontend, I ensured a seamless user experience. Additionally, I implemented Solidity to integrate blockchain technology, enhancing security and transparency within the platform."
     }
   ]
 };
@@ -280,25 +276,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cabs4uLogo.png"),
+      projectName: "Cabs4u",
+      projectDesc: "Cabs4u is a thriving company based in Vadodara, Gujarat, India. It operates a cab service catering to a daily user base of 40 to 50 individuals who book cabs for packages averaging around ₹15,000. This results in a substantial daily turnover ranging from ₹600,000 to ₹750,000. The platform is built using React with Next.js for the frontend, Django for the backend, and SQLite for the database. Additionally, Google Ads have been implemented to enhance visibility and reach.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://cabs4u.in/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ImageLogo.png"),
+      projectName: "Community-Based-Local-Services-Platform",
+      projectDesc: "The Community-Based-Local-Services-Platform is a complex project developed by a university team. It is a PC software designed using Visual Basics for the frontend and backend. The database is managed using phpMyAdmin. The project was a collaborative effort and designed using Figma.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Software Repository",
+          url: "https://github.com/divyeshvankar/Community-Based-Local-Services-Platform"
         }
       ]
     }
@@ -356,7 +352,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -364,7 +360,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
