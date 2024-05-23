@@ -297,7 +297,18 @@ const bigProjects = {
           url: "https://github.com/divyeshvankar/Community-Based-Local-Services-Platform"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/votingDapp.png"),
+      projectName: "Voting Dapp",
+      projectDesc: "The Voting Dapp is a decentralized application developed using React, Node.js, Solidity, and Web3.js. This application allows users to create and participate in secure and transparent voting processes leveraging blockchain technology. The project aims to enhance the integrity and accessibility of voting systems.",
+      footerLink: [
+        {
+          name: "Visit Voting Dapp Website",
+          url: "https://votingdv.netlify.app/"
+        }
+      ]
+    }    
   ],
   display: true // Set false to hide this section, defaults to true
 };
