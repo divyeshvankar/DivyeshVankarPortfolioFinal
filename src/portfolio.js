@@ -176,7 +176,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "figma",
       fontAwesomeClassname: "fab fa-figma"
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -198,8 +197,7 @@ const educationInfo = {
         "Participated in coding competitions and hackathons, honing problem-solving skills and fostering creativity.",
         "Actively involved in extracurricular activities, contributing to the vibrant campus community."
       ]
-
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -242,7 +240,7 @@ const workExperiences = {
       company: "Barclays",
       companylogo: require("./assets/images/barclaysLogo.png"),
       date: "May 2024 – Present",
-      desc: "Excited to join the Global Security team, where I'll be contributing my skills and expertise to ensure the safety and integrity of our systems and data.",
+      desc: "Excited to join the Global Security team, where I'll be contributing my skills and expertise to ensure the safety and integrity of our systems and data."
     },
     {
       role: "Software Developer Intern",
@@ -278,7 +276,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cabs4uLogo.png"),
       projectName: "Cabs4u",
-      projectDesc: "Cabs4u is a thriving company based in Vadodara, Gujarat, India. It operates a cab service catering to a daily user base of 40 to 50 individuals who book cabs for packages averaging around ₹15,000. This results in a substantial daily turnover ranging from ₹600,000 to ₹750,000. The platform is built using React with Next.js for the frontend, Django for the backend, and SQLite for the database. Additionally, Google Ads have been implemented to enhance visibility and reach.",
+      projectDesc:
+        "Cabs4u is a thriving company based in Vadodara, Gujarat, India. It operates a cab service catering to a daily user base of 40 to 50 individuals who book cabs for packages averaging around ₹15,000. This results in a substantial daily turnover ranging from ₹600,000 to ₹750,000. The platform is built using React with Next.js for the frontend, Django for the backend, and SQLite for the database. Additionally, Google Ads have been implemented to enhance visibility and reach.",
       footerLink: [
         {
           name: "Visit Website",
@@ -290,7 +289,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ImageLogo.png"),
       projectName: "Community-Based-Local-Services-Platform",
-      projectDesc: "The Community-Based-Local-Services-Platform is a complex project developed by a university team. It is a PC software designed using Visual Basics for the frontend and backend. The database is managed using phpMyAdmin. The project was a collaborative effort and designed using Figma.",
+      projectDesc:
+        "The Community-Based-Local-Services-Platform is a complex project developed by a university team. It is a PC software designed using Visual Basics for the frontend and backend. The database is managed using phpMyAdmin. The project was a collaborative effort and designed using Figma.",
       footerLink: [
         {
           name: "Visit Software Repository",
@@ -301,14 +301,15 @@ const bigProjects = {
     {
       image: require("./assets/images/votingDapp.png"),
       projectName: "Voting Dapp",
-      projectDesc: "The Voting Dapp is a decentralized application developed using React, Node.js, Solidity, and Web3.js. This application allows users to create and participate in secure and transparent voting processes leveraging blockchain technology. The project aims to enhance the integrity and accessibility of voting systems.",
+      projectDesc:
+        "The Voting Dapp is a decentralized application developed using React, Node.js, Solidity, and Web3.js. This application allows users to create and participate in secure and transparent voting processes leveraging blockchain technology. The project aims to enhance the integrity and accessibility of voting systems.",
       footerLink: [
         {
           name: "Visit Voting Dapp Website",
           url: "https://votingdv.netlify.app/"
         }
       ]
-    }    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -363,7 +364,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
